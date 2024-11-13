@@ -7,7 +7,7 @@ This repository contains the code and configurations for an **ETL (Extract, Tran
 This project aims to automate the process of gathering, transforming, and analyzing data from Reddit to gain insights on user engagement, sentiment, trends, and more. The pipeline is built to:
 1. Extract data from the Reddit API.
 2. Store the raw data in Amazon S3.
-3. Load the data into Amazon Redshift for storage.
+3. Load the data into Amazon Redshift for storage using Aws Glue.
 4. Use dbt to transform the data in Redshift, preparing it for analysis.
 5. Visualize the transformed data in Tableau for interactive exploration and insights.
 
