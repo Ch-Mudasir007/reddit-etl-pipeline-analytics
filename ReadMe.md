@@ -62,19 +62,3 @@ This project aims to automate the process of gathering, transforming, and analyz
 
 4. **Enhanced Data Visualization**:
    - Tableau allows for rich, interactive dashboards, making it easy for end-users to explore and analyze Reddit data without needing to query the database directly.
-
-## Getting Started
-
-### Prerequisites
-
-1. **AWS Account**: Set up an Amazon S3 bucket and an Amazon Redshift cluster. Ensure that Airflow and dbt have the required access permissions for S3 and Redshift.
-2. **Reddit API Access**: Obtain API credentials from [Reddit’s developer portal](https://www.reddit.com/prefs/apps) to access Reddit data.
-3. **Docker**: Install Docker for containerized deployment of the ETL components.
-4. **Apache Airflow**: Configure Airflow to manage the ETL workflows.
-
-### Setup Instructions
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd reddit-etl-pipeline
