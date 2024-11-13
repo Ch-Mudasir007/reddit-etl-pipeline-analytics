@@ -1,7 +1,7 @@
 # ETL Pipeline for Reddit Data Analytics Using AWS, Docker, Airflow, dbt, and Tableau
 
 This repository contains the code and configurations for an **ETL (Extract, Transform, Load) pipeline** designed to gather data from the **Reddit API**, process and store it on **AWS**, and visualize it on **Tableau**. The pipeline is modular, scalable, and easy to deploy, leveraging Docker and Airflow for orchestration and dbt for data transformation within Redshift.
-
+![alt tag](Project_Flow.jpg)
 ## Project Overview
 
 This project aims to automate the process of gathering, transforming, and analyzing data from Reddit to gain insights on user engagement, sentiment, trends, and more. The pipeline is built to:
